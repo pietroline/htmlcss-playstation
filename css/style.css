@@ -1,13 +1,13 @@
 body{
-    background-color: red; /*provvisorio*/
+    /* background-color: red; provvisorio */
 }
 
 /* inizio css header */
-    .ms_dim_logo{
+    .ms_w_150px{
         width: 150px;
     }
 
-    .ms_dim_search{
+    .ms_w_30px{
         width: 30px;
     }
 /* fine css header */
@@ -15,7 +15,7 @@ body{
 /* inizio css main */
 
     /* inizio css jumbotron */
-        #jumbotron{
+        #jumbotron_top{
             width: 100%;
             height: 675px;
             background-image: url("../img/jumbo-bg.png");
@@ -24,10 +24,27 @@ body{
             background-position: center;
         }
 
+        .ms_w_400px{
+            width: 400px;
+        }
+
         .ms_bg_button_acquista{
             background-color: #d43d22;
             border-color: #d43d22;
         }
+
+        .ms_selezionato{
+            border: 2px solid #107ccc;
+            padding: 2px;
+            border-radius: 20px;
+        }
+
+        .ms_rounded{
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+   
 
     /* fine css jumbotron */
 
