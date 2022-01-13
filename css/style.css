@@ -34,7 +34,7 @@ body{
         }
 
         .ms_selezionato{
-            border: 2px solid #107ccc;
+            border: 2px solid #0070f7;
             padding: 2px;
             border-radius: 20px;
         }
@@ -43,9 +43,24 @@ body{
             border-radius: 20px;
             overflow: hidden;
         }
-
-   
-
     /* fine css jumbotron */
 
+    /* inizio section #presentazione */
+        .ms_fs_12px{
+            font-size: 12px;
+        }
+
+        .ms_w_100px_w_md_200px{
+            width: 200px;
+        }
+    /* fine section #presentazione */
+
 /* fine css main */
+
+/* inizio media queries */
+    @media screen and (min-width: 768px) {
+        .ms_w_100px_w_md_200px{
+            width: 100px;
+        }
+    }
+/* fine media queries */
