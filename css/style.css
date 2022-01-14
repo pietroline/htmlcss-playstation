@@ -84,11 +84,22 @@ body{
         }
     /* fine section it_take_two */
 
-    /* inizio sezione playstation_4 */
+    /* inizio section playstation_4 */
         .ms_border_none{
             border: none;
         }
-    /* fine sezione playstation_4 */
+    /* fine section playstation_4 */
+
+    /* inizio section playstation_plus */
+        #playstation_plus{
+            background-color: #bdbbba;
+        }
+
+        .ms_w_250px{
+            width: 250px;
+        }
+    /* fine section playstation_plus */
+
 
 
 
