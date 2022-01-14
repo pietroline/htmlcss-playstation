@@ -95,10 +95,17 @@ body{
             background-color: #bdbbba;
         }
 
+        /* ms_w_250px è utilizzato anche nella sezione playstatio_now */
         .ms_w_250px{
             width: 250px;
         }
     /* fine section playstation_plus */
+
+    /* inizio section playstation_now */
+        #playstation_now{
+            background-color: #1c223c;
+        }
+    /* fine section playstation_now */
 
 
 
