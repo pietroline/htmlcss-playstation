@@ -69,6 +69,7 @@ body{
         }
     /* fine section #presentazione */
 
+    /* inizio section it_take_two */
         #it_take_two{
             width: 100%;
             height: 956px;
@@ -81,5 +82,6 @@ body{
         .ms_w_300px{
             width: 300px;
         }
+    /* fine section it_take_two */
 
 /* fine css main */
