@@ -50,17 +50,22 @@ body{
             font-size: 12px;
         }
 
-        .ms_w_100px_w_md_200px{
-            width: 200px;
+        .ms_w_160px_w_md_200px{
+            width: 160px;
+        }
+
+        .ms_device_selezionato{
+            border-bottom: 3px solid rgb(0, 7, 247,0.5);
+        }
+
+        .hover{
+            opacity: 0.5;
+        }
+
+        .hover:hover{
+            opacity: 1;
+            border-bottom: 3px solid rgb(0, 7, 247,0.5);
         }
     /* fine section #presentazione */
 
 /* fine css main */
-
-/* inizio media queries */
-    @media screen and (min-width: 768px) {
-        .ms_w_100px_w_md_200px{
-            width: 100px;
-        }
-    }
-/* fine media queries */
