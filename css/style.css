@@ -1,6 +1,5 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    /* background-color: red; provvisorio */
 }
 
 /* inizio css header */
@@ -11,6 +10,38 @@ body{
 
     .ms_w_30px{
         width: 30px;
+    }
+
+    .ms_text_color_grey{
+        color: #717171;
+    }
+
+    .ms_text_color_grey::after{
+        display: none;
+    }
+    
+    .ms_arrow:hover{
+        color: #0070f7;
+    }
+
+    .ms_arrow_blue{
+        display: none;
+    }
+
+    .ms_arrow:hover .ms_arrow_grey{
+        display: none;
+    }
+
+    .ms_arrow:hover .ms_arrow_blue{
+        display: inline-block;
+    }
+
+    .ms_svg_hover:hover{
+        fill: #0070f7;
+    }
+
+    .ms_w_10px{
+        width: 10px;
     }
 /* fine css header */
 
@@ -44,6 +75,16 @@ body{
         .ms_rounded{
             border-radius: 20px;
             overflow: hidden;
+        }
+
+        /* utilizzato in tutti i button al netto del colore del bordo */
+        .ms_btn_hover{
+            border: 2px solid #000;
+            border-radius: 20px;
+        }
+
+        .ms_btn_hover:hover{
+            padding: 2px;
         }
     /* fine css jumbotron */
 
@@ -117,10 +158,5 @@ body{
             width: 20px;
         }
     /* fine section footer_bottom */
-
-
-
-
-
 
 /* fine css main */
