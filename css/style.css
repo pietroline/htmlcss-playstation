@@ -1,4 +1,5 @@
 body{
+    font-family: Arial, Helvetica, sans-serif;
     /* background-color: red; provvisorio */
 }
 
@@ -55,7 +56,7 @@ body{
         }
 
         .ms_device_selezionato{
-            border-bottom: 3px solid rgb(0, 7, 247,0.5);
+            border-bottom: 3px solid #0070f7;
         }
 
         .hover{
@@ -64,8 +65,21 @@ body{
 
         .hover:hover{
             opacity: 1;
-            border-bottom: 3px solid rgb(0, 7, 247,0.5);
+            border-bottom: 3px solid #0070f7;
         }
     /* fine section #presentazione */
+
+        #it_take_two{
+            width: 100%;
+            height: 956px;
+            background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .ms_w_300px{
+            width: 300px;
+        }
 
 /* fine css main */
