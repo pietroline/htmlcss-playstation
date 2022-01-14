@@ -4,6 +4,7 @@ body{
 }
 
 /* inizio css header */
+    /* ms_w_150px è utilizzato anche nella sezione footer_bottom */
     .ms_w_150px{
         width: 150px;
     }
@@ -106,6 +107,18 @@ body{
             background-color: #1c223c;
         }
     /* fine section playstation_now */
+
+    /* inizio section footer_bottom */
+        #footer_bottom{
+            background-color: #004697;
+        }
+
+        .ms_w_20px{
+            width: 20px;
+        }
+    /* fine section footer_bottom */
+
+
 
 
 
