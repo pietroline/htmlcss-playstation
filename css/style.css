@@ -90,6 +90,13 @@ body{
             border-radius: 20px;
             overflow: hidden;
         }
+
+        .ms_hover_thumbnail:hover{
+            border-color: rgba(0, 0, 255, 0.7);
+            transform: translate(0, -20px);
+            transition: 0.5s;
+            box-shadow: 10px 10px 20px 0px  rgba(0, 0, 0, 0.5);
+        }
     /* fine css jumbotron */
 
     /* inizio section #presentazione */
@@ -169,14 +176,17 @@ body{
         }
     /* fine section playstation_now */
 
-    /* inizio section footer_bottom */
-        #footer_bottom{
-            background-color: #004697;
-        }
-
-        .ms_w_20px{
-            width: 20px;
-        }
-    /* fine section footer_bottom */
-
 /* fine css main */
+
+/* inizio css footer */
+    /* inizio section footer_bottom */
+    #footer_bottom{
+        background-color: #004697;
+    }
+
+    .ms_w_20px{
+        width: 20px;
+    }
+    /* fine section footer_bottom */
+/* fine css footer */
+
