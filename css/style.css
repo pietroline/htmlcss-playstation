@@ -36,6 +36,16 @@ body{
         display: inline-block;
     }
 
+    /* utilizzato in tutti i button al netto del colore del bordo */
+    .ms_hover_btn{
+        border: 2px solid #000;
+    }
+
+    /* utilizzato in tutti i button */
+    .ms_hover_btn:hover{
+        padding: 2px;
+    }
+
     .ms_svg_hover:hover{
         fill: #0070f7;
     }
@@ -61,10 +71,14 @@ body{
             width: 400px;
         }
 
-        .ms_bg_button_acquista{
+        .ms_bg_btn_acquista{
             background-color: #d43d22;
+        }
+
+        #jumbotron .ms_hover_btn{
             border-color: #d43d22;
         }
+    
 
         .ms_selezionato{
             border: 2px solid #0070f7;
@@ -76,16 +90,6 @@ body{
             border-radius: 20px;
             overflow: hidden;
         }
-
-        /* utilizzato in tutti i button al netto del colore del bordo */
-        .ms_btn_hover{
-            border: 2px solid #000;
-            border-radius: 20px;
-        }
-
-        .ms_btn_hover:hover{
-            padding: 2px;
-        }
     /* fine css jumbotron */
 
     /* inizio section #presentazione */
@@ -93,8 +97,8 @@ body{
             font-size: 12px;
         }
 
-        .ms_w_160px_w_md_200px{
-            width: 160px;
+        #presentazione .ms_hover_btn{
+            border-color: #0070f7;
         }
 
         .ms_device_selezionato{
@@ -121,6 +125,10 @@ body{
             background-position: center;
         }
 
+        #it_take_two .ms_hover_btn{
+            border-color: #d43d22;
+        }
+
         .ms_w_300px{
             width: 300px;
         }
@@ -130,11 +138,19 @@ body{
         .ms_border_none{
             border: none;
         }
+
+        #playstation_4 .ms_hover_btn{
+            border-color: #0070f7;
+        }
     /* fine section playstation_4 */
 
     /* inizio section playstation_plus */
         #playstation_plus{
             background-color: #bdbbba;
+        }
+
+        #playstation_plus .ms_hover_btn{
+            border-color: #f8f9fa;
         }
 
         /* ms_w_250px è utilizzato anche nella sezione playstatio_now */
@@ -146,6 +162,10 @@ body{
     /* inizio section playstation_now */
         #playstation_now{
             background-color: #1c223c;
+        }
+
+        #playstation_now .ms_hover_btn{
+            border-color: #0070f7;
         }
     /* fine section playstation_now */
 
