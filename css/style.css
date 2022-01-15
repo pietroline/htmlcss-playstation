@@ -92,7 +92,6 @@ body{
         }
 
         .ms_hover_thumbnail:hover{
-            border-color: rgba(0, 0, 255, 0.7);
             transform: translate(0, -20px);
             transition: 0.5s;
             box-shadow: 10px 10px 20px 0px  rgba(0, 0, 0, 0.5);
@@ -140,6 +139,30 @@ body{
             width: 300px;
         }
     /* fine section it_take_two */
+
+    /* inizio section nuove uscite */
+        .ms_layover{
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            border-radius: 20px;
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        .ms_contenitore:hover .ms_layover{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 100px;
+        }
+
+        .ms_contenitore:hover h2{
+            color: #717171;
+        }
+    /* fine section nuove uscite */
 
     /* inizio section playstation_4 */
         .ms_border_none{
