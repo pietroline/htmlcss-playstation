@@ -67,12 +67,13 @@ body{
 
     /* utilizzato in tutti i button al netto del colore del bordo */
     .ms_hover_btn{
-        border: 2px solid #000;
+        border: 2px solid transparent;
+        padding: 2px;
     }
 
     /* utilizzato in tutti i button */
     .ms_hover_btn:hover{
-        padding: 2px;
+        border-color: #000;
     }
 
     .ms_svg_hover:hover{
@@ -112,11 +113,10 @@ body{
             background-color: #d43d22;
         }
 
-        #jumbotron .ms_hover_btn{
+        #jumbotron .ms_hover_btn:hover{
             border-color: #d43d22;
         }
     
-
         .ms_selezionato{
             border: 2px solid #0070f7;
             padding: 2px;
@@ -140,7 +140,7 @@ body{
             font-size: 12px;
         }
 
-        #presentazione .ms_hover_btn{
+        #presentazione .ms_hover_btn:hover{
             border-color: #0070f7;
         }
 
@@ -168,7 +168,7 @@ body{
             background-position: center;
         }
 
-        #it_take_two .ms_hover_btn{
+        #it_take_two .ms_hover_btn:hover{
             border-color: #d43d22;
         }
 
@@ -206,7 +206,7 @@ body{
             border: none;
         }
 
-        #playstation_4 .ms_hover_btn{
+        #playstation_4 .ms_hover_btn:hover{
             border-color: #0070f7;
         }
     /* fine section playstation_4 */
@@ -216,7 +216,7 @@ body{
             background-color: #bdbbba;
         }
 
-        #playstation_plus .ms_hover_btn{
+        #playstation_plus .ms_hover_btn:hover{
             border-color: #f8f9fa;
         }
 
@@ -231,7 +231,7 @@ body{
             background-color: #1c223c;
         }
 
-        #playstation_now .ms_hover_btn{
+        #playstation_now .ms_hover_btn:hover{
             border-color: #0070f7;
         }
     /* fine section playstation_now */
