@@ -65,6 +65,26 @@ body{
         font-size: 40px;
     }
 
+    .ms_w_10{
+        width: 10%;
+    }
+
+    .ms_header_img:hover{
+        background-color: #eaf7fe;
+        border-radius: 20px;
+    }
+
+    .ms_header_img_blue{
+        display: none;
+    }
+
+    .ms_header_img:hover .ms_header_img_bn{
+        display: none;
+    }
+
+    .ms_header_img:hover .ms_header_img_blue{
+        display: inline;
+    }
     /* utilizzato in tutti i button al netto del colore del bordo */
     .ms_hover_btn{
         border: 2px solid transparent;
