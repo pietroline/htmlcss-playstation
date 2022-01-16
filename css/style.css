@@ -40,6 +40,31 @@ body{
         color: #000;
     }
 
+    .ms_hover_thumbnail_dropdown:hover{
+        box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+    }
+
+    .ms_w_200px{
+        width: 200px;
+    }
+
+    .ms_h_160px{
+        height: 160px;
+    }
+
+    .ms_white_space{
+        white-space: normal;
+    }
+
+    .ms_w_90{
+        width: 90%;
+    }
+
+    .ms_fs_40px{
+        font-size: 40px;
+    }
+
     /* utilizzato in tutti i button al netto del colore del bordo */
     .ms_hover_btn{
         border: 2px solid #000;
