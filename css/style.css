@@ -247,6 +247,14 @@ body{
     .ms_w_20px{
         width: 20px;
     }
+
+    .ms_hover_text{
+        text-decoration: none;
+    }
+
+    .ms_hover_text:hover{
+        text-decoration: underline;
+    }
     /* fine section footer_bottom */
 /* fine css footer */
 
