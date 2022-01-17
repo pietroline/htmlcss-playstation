@@ -278,3 +278,16 @@ body{
     }
     /* fine section footer_bottom */
 /* fine css footer */
+
+
+
+
+
+
+/* inizio media queries */
+    @media (max-width:991px) {
+        .ms_height_100vh{
+            height: 100vh;
+        }
+    }
+/* fine media queries */
